@@ -41,8 +41,8 @@ public class Next_fit {
  }
      System.out.print("\nProcess No.\tProcess Size\tBlock no.\n");
      for (int i = 0; i < n; i++) {
-         System.out.print( i + 1 + "\t\t\t\t" + processSize[i]
-                 + "\t\t\t\t");
+         System.out.print(i + 1 + "\t\t\t" + processSize[i]
+                 + "\t\t");
          if (allocation[i] != -1) {
              System.out.print(allocation[i] + 1);
          } else {
